@@ -96,6 +96,227 @@ Law enforcement agencies generally advise against paying ransoms. It doesn't gua
     date: '2024-03-05',
     featured: true,
     coverImage: 'https://picsum.photos/seed/ransomware/1200/600',
+  },
+  {
+    id: '4',
+    title: 'Password Security 101: Why "123456" Is Not an Option',
+    slug: 'password-security-101',
+    category: 'User Security',
+    tags: ['passwords', 'authentication', 'student-safety'],
+    excerpt: 'Weak passwords remain the number one cause of account breaches. Learn how to create and manage secure passwords effectively.',
+    content: `
+# Password Security 101
+
+If you use the same password for multiple accounts, you are not alone — but you are at risk.
+
+## Why Weak Passwords Are Dangerous
+When one platform is breached, attackers try the same password on:
+- Email accounts
+- Social media
+- Banking apps
+- School portals
+
+This is called credential stuffing.
+
+## How to Create a Strong Password
+1. Use at least 12–16 characters.
+2. Combine uppercase, lowercase, numbers, and symbols.
+3. Avoid personal information like birthdays.
+4. Never reuse passwords.
+
+## Pro Tip
+Use a password manager instead of writing passwords in notebooks or saving them in screenshots.
+  `,
+    author: 'CyberGuard Team',
+    date: '2024-03-20',
+    featured: false,
+    coverImage: 'https://picsum.photos/seed/password/1200/600',
+  },
+  {
+    id: '5',
+    title: 'Two-Factor Authentication (2FA): Your Second Line of Defense',
+    slug: 'two-factor-authentication-guide',
+    category: 'User Security',
+    tags: ['2fa', 'authentication', 'account-protection'],
+    excerpt: 'Even if hackers steal your password, 2FA can stop them. Here is why every student should enable it today.',
+    content: `
+# Two-Factor Authentication (2FA)
+
+Passwords alone are no longer enough.
+
+## What is 2FA?
+Two-Factor Authentication requires:
+1. Something you know (your password)
+2. Something you have (OTP code or authentication app)
+
+## Why Students Should Enable 2FA
+- Protects email accounts
+- Secures social media
+- Prevents unauthorized login
+- Reduces risk of identity theft
+
+## Best Practice
+Use authentication apps instead of SMS when possible.
+Enable 2FA on:
+- Email
+- Instagram
+- Facebook
+- Banking apps
+  `,
+    author: 'CyberGuard Team',
+    date: '2024-03-22',
+    featured: true,
+    coverImage: 'https://picsum.photos/seed/2fa/1200/600',
+  },
+  {
+    id: '6',
+    title: 'Public Wi-Fi: Free Internet or Free Access for Hackers?',
+    slug: 'public-wifi-risks',
+    category: 'Network Safety',
+    tags: ['public-wifi', 'network-security', 'privacy'],
+    excerpt: 'Using public Wi-Fi without protection can expose your data. Learn the hidden dangers and how to stay safe.',
+    content: `
+# Public Wi-Fi Risks
+
+Public Wi-Fi in hostels, cafes, and campuses may not be secure.
+
+## Common Risks
+- Man-in-the-middle attacks
+- Fake Wi-Fi hotspots
+- Data interception
+
+## How to Stay Safe
+1. Avoid online banking on public Wi-Fi.
+2. Turn off automatic Wi-Fi connection.
+3. Use HTTPS websites only.
+4. Log out after using shared networks.
+
+Remember: Free Wi-Fi is never truly free.
+  `,
+    author: 'CyberGuard Team',
+    date: '2024-03-25',
+    featured: false,
+    coverImage: 'https://picsum.photos/seed/wifi/1200/600',
+  },
+  {
+    id: '7',
+    title: 'SIM Swap Fraud: How Hackers Take Over Your Number',
+    slug: 'sim-swap-fraud-explained',
+    category: 'Financial Security',
+    tags: ['sim-swap', 'mobile-security', 'fraud'],
+    excerpt: 'SIM swap fraud is rising among students. Learn how attackers hijack your number and how to prevent it.',
+    content: `
+# SIM Swap Fraud
+
+SIM swap happens when attackers transfer your phone number to their SIM card.
+
+## Why It Is Dangerous
+- They receive your OTP codes
+- They reset your banking passwords
+- They access your email accounts
+
+## Warning Signs
+- Sudden loss of network signal
+- OTP messages you did not request
+- Unauthorized banking alerts
+
+## Prevention Tips
+- Never share personal data publicly.
+- Secure your email account first.
+- Contact your network provider immediately if signal disappears unexpectedly.
+  `,
+    author: 'CyberGuard Team',
+    date: '2024-03-28',
+    featured: false,
+    coverImage: 'https://picsum.photos/seed/sim/1200/600',
+  },
+  {
+    id: '8',
+    title: 'Social Media Privacy: What Are You Really Sharing?',
+    slug: 'social-media-privacy',
+    category: 'Privacy Awareness',
+    tags: ['social-media', 'privacy', 'digital-footprint'],
+    excerpt: 'Oversharing online can expose you to scams and identity theft. Learn how to protect your digital footprint.',
+    content: `
+# Social Media Privacy
+
+Your social media profile reveals more than you think.
+
+## Risks of Oversharing
+- Birthdays used for password recovery
+- Location tagging exposing movement patterns
+- Public friend lists used for impersonation
+
+## How to Improve Privacy
+1. Make accounts private.
+2. Disable location tagging.
+3. Review privacy settings regularly.
+4. Remove unknown followers.
+
+Think before you post.
+  `,
+    author: 'CyberGuard Team',
+    date: '2024-03-30',
+    featured: false,
+    coverImage: 'https://picsum.photos/seed/social/1200/600',
+  },
+  {
+    id: '9',
+    title: 'Online Banking & Payment Scams Targeting Students',
+    slug: 'online-banking-scams',
+    category: 'Financial Security',
+    tags: ['online-banking', 'scams', 'fraud-awareness'],
+    excerpt: 'Fake payment links and urgent transfer requests are common tricks. Learn how to verify before you pay.',
+    content: `
+# Online Banking Scams
+
+Students are frequent targets of financial fraud.
+
+## Common Scams
+- Fake hostel payment links
+- Urgent transfer requests from hacked friends
+- Fake scholarship payments
+
+## How to Verify
+1. Double-check URLs carefully.
+2. Confirm requests through phone calls.
+3. Avoid clicking payment links from unknown sources.
+4. Enable transaction alerts.
+
+Always verify before you pay.
+  `,
+    author: 'CyberGuard Team',
+    date: '2024-04-02',
+    featured: true,
+    coverImage: 'https://picsum.photos/seed/banking/1200/600',
+  },
+  {
+    id: '10',
+    title: 'Malware & Device Protection: Keep Your Laptop Safe',
+    slug: 'malware-device-protection',
+    category: 'Device Security',
+    tags: ['malware', 'antivirus', 'device-security'],
+    excerpt: 'Downloading cracked software or random apps can infect your device. Learn how to protect your gadgets.',
+    content: `
+# Malware & Device Protection
+
+Malware spreads through:
+- Pirated software
+- Suspicious downloads
+- Fake update popups
+
+## Protection Tips
+1. Install software only from official sources.
+2. Keep your OS updated.
+3. Avoid cracked apps.
+4. Use built-in device security features.
+
+Your device is your academic tool — protect it.
+  `,
+    author: 'CyberGuard Team',
+    date: '2024-04-05',
+    featured: false,
+    coverImage: 'https://picsum.photos/seed/malware/1200/600',
   }
 ];
 
